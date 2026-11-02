@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "155189265575",
+    "project_id": "trg-app-59d4f",
+    "storage_bucket": "trg-app-59d4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155189265575:android:efafcedf97e4230c778782",
+        "android_client_info": {
+          "package_name": "com.kartik_gupta9.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155189265575-tqud9unhb3rootck37u5oehcbpnhfom0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfX3VeUwmyTcUA-wfKBGzPifx6cQXWsWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155189265575-tqud9unhb3rootck37u5oehcbpnhfom0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155189265575:android:a320933e87fd4d01778782",
+        "android_client_info": {
+          "package_name": "com.swipeklin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155189265575-tqud9unhb3rootck37u5oehcbpnhfom0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfX3VeUwmyTcUA-wfKBGzPifx6cQXWsWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155189265575-tqud9unhb3rootck37u5oehcbpnhfom0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155189265575:android:4ebf5d08958bb032778782",
+        "android_client_info": {
+          "package_name": "com.swipeklincleaner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155189265575-tqud9unhb3rootck37u5oehcbpnhfom0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfX3VeUwmyTcUA-wfKBGzPifx6cQXWsWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155189265575-tqud9unhb3rootck37u5oehcbpnhfom0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155189265575:android:b8ea363076568735778782",
+        "android_client_info": {
+          "package_name": "com.swipeklinuser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155189265575-tqud9unhb3rootck37u5oehcbpnhfom0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfX3VeUwmyTcUA-wfKBGzPifx6cQXWsWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155189265575-tqud9unhb3rootck37u5oehcbpnhfom0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

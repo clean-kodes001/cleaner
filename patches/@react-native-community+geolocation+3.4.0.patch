@@ -1,0 +1,15 @@
+diff --git a/node_modules/@react-native-community/geolocation/android/src/main/java/com/reactnativecommunity/geolocation/PlayServicesLocationManager.java b/node_modules/@react-native-community/geolocation/android/src/main/java/com/reactnativecommunity/geolocation/PlayServicesLocationManager.java
+index 423f7a5..a117b55 100644
+--- a/node_modules/@react-native-community/geolocation/android/src/main/java/com/reactnativecommunity/geolocation/PlayServicesLocationManager.java
++++ b/node_modules/@react-native-community/geolocation/android/src/main/java/com/reactnativecommunity/geolocation/PlayServicesLocationManager.java
+@@ -158,6 +158,10 @@ public class PlayServicesLocationManager extends BaseLocationManager {
+         return new LocationCallback() {
+             @Override
+             public void onLocationResult(@NonNull LocationResult locationResult) {
++                if (mSingleLocationCallback == null) {
++                    return;
++                }
++
+                 Location location = locationResult.getLastLocation();
+ 
+                 if (location == null) {

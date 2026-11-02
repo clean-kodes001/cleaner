@@ -1,0 +1,36 @@
+diff --git a/node_modules/react-native-google-places-autocomplete/GooglePlacesAutocomplete.js b/node_modules/react-native-google-places-autocomplete/GooglePlacesAutocomplete.js
+index 99a2a13..3d554ef 100644
+--- a/node_modules/react-native-google-places-autocomplete/GooglePlacesAutocomplete.js
++++ b/node_modules/react-native-google-places-autocomplete/GooglePlacesAutocomplete.js
+@@ -96,7 +96,7 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
+         props.predefinedPlacesAlwaysVisible === true
+       ) {
+         res = [
+-          ...props.predefinedPlaces.filter(
++          ...(props.predefinedPlaces || []).filter(
+             (place) => place?.description.length,
+           ),
+         ];
+@@ -389,9 +389,10 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
+       return rowData;
+     }
+ 
+-    for (let i = 0; i < props.predefinedPlaces.length; i++) {
+-      if (props.predefinedPlaces[i].description === rowData.description) {
+-        return props.predefinedPlaces[i];
++    const predefinedPlaces = props.predefinedPlaces || [];
++    for (let i = 0; i < predefinedPlaces.length; i++) {
++      if (predefinedPlaces[i].description === rowData.description) {
++        return predefinedPlaces[i];
+       }
+     }
+ 
+@@ -791,7 +792,7 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
+     if (
+       supportedPlatform() &&
+       (stateText !== '' ||
+-        props.predefinedPlaces.length > 0 ||
++        (props.predefinedPlaces || []).length > 0 ||
+         props.currentLocation === true) &&
+       listViewDisplayed === true
+     ) {

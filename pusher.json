@@ -1,0 +1,14 @@
+{
+  "appId": "dev-swipeklin-live-server-app-id",
+  "key": "dev-swipeklin-live-server-app-key",
+  "cluster": "mt1",
+  "encrypted": true,
+  "restServer": "https://dev.swipeklin.com",
+  "httpHost": "dev.swipeklin.com",
+  "authEndpoint": "https://dev.swipeklin.com/api/broadcasting/auth",
+  "wsHost": "dev-ws.swipeklin.com",
+  "wsPort": 443,
+  "wssPort": 443,
+  "enabledTransports": ["ws", "wss"],
+  "forceTLS": true
+}

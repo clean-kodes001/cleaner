@@ -1,0 +1,29 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        buildToolsVersion = "36.0.0"
+        minSdkVersion = 27
+        compileSdkVersion = 36
+        targetSdkVersion = 36
+        ndkVersion = "27.1.12297006"
+        kotlinVersion = "2.1.20"
+        // Pin Stripe to the exact version the User app already resolves to (23.4.0).
+        // The stripe-react-native module otherwise defaults to the dynamic "23.4.+",
+        // which forces a live maven-metadata.xml fetch from Maven Central on every
+        // build (and re-fetches after Gradle's 24h dynamic-version cache expires).
+        stripeVersion = "23.4.0"
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${project.ext.kotlinVersion}")
+        classpath 'com.google.gms:google-services:4.3.8'
+    }
+}
+
+apply plugin: "com.facebook.react.rootproject"

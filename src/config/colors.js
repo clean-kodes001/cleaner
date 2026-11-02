@@ -1,0 +1,22 @@
+export const colors = {
+  active: '#0CBC87',
+  activeFaded: '#cdf7eb',
+  borderColor: '#d7d8db',
+  danger: '#d6293e',
+  fadedText: '#a8a1ec',
+  grayText: '#747579',
+  iconGrey: '#6d6e6c',
+  inActive: '#0f0b2d',
+  inActiveFaded: '#f4f3f9',
+  orangeLight: '#fd7e14',
+  orangeDark: '#d9701a',
+  primary: '#5143d9',
+  primaryText: '#483cc3',
+  text: '#0a58ca',
+  textBlack: '#333333',
+
+  brandPrimary: '#286AB8',
+  brandSecondary: '#ECA44C',
+  brandPurple: '#9D60AA',
+  brandGreen: '#A9D36A',
+};
